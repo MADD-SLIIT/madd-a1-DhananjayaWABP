@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_login_screen"
+  android:layout_width="match_parent"
+  android:layout_height="812dp"
+  android:background="@drawable/container_login_screen">
+  
+  <FrameLayout
+    android:id="@+id/container_button"
+    android:layout_width="295dp"
+    android:layout_height="54dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="474dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_button">
+    
+    <ImageView
+      android:id="@+id/image_button"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_button"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_button"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="123dp"
+      android:layout_marginRight="122dp"
+      android:layout_marginTop="15.5dp"
+      android:layout_marginBottom="15.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Login"
+      android:textColor="#FFFFFFFF"
+      android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/image_button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_button1"
+        android:scaleType="centerCrop" />
+  </FrameLayout>
+
+  <FrameLayout
+    android:id="@+id/container_button_login_user"
+    android:layout_width="295dp"
+    android:layout_height="54dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="474dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_button1">
+
+    <TextView
+      android:id="@+id/text_button1"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="123dp"
+      android:layout_marginRight="122dp"
+      android:layout_marginTop="15.5dp"
+      android:layout_marginBottom="15.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Login"
+      android:textColor="#FFFFFFFF"
+      android:textSize="18dp" />
+  </FrameLayout>
+
+  <LinearLayout
+    android:id="@+id/container_tab"
+    android:layout_width="match_parent"
+    android:layout_height="126dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="286dp"
+    android:layout_gravity="top"
+    android:gravity="left|top"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container_email"
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+
+      <ImageView
+          android:id="@+id/image_email"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_email"
+          android:scaleType="centerCrop" />
+
+      <ImageView
+          android:id="@+id/image_vector_email"
+          android:layout_width="15dp"
+          android:layout_height="11dp"
+          android:layout_marginLeft="330dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginBottom="22dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_vector_email" />
+
+      <EditText
+          android:id="@+id/text_email"
+          android:layout_width="250dp"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="25dp"
+          android:layout_marginRight="70dp"
+          android:background="@null"
+          android:gravity="left|center_vertical"
+          android:hint="Enter your email"
+          android:inputType="textEmailAddress"
+          android:singleLine="true"
+          android:textColor="#FF677294"
+          android:textSize="16sp" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container_password"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="18dp">
+
+      <ImageView
+          android:id="@+id/image_password"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/image_email" />
+
+      <EditText
+          android:id="@+id/text_password"
+          android:layout_width="250dp"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="25dp"
+          android:layout_marginRight="70dp"
+          android:gravity="left|center_vertical"
+          android:inputType="textPassword"
+          android:hint="Enter your password"
+          android:background="@null"
+          android:textColor="#FF677294"
+          android:textSize="16sp"
+          android:singleLine="true" />
+
+      <ImageView
+          android:id="@+id/image_toggle_password"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_gravity="end|center_vertical"
+          android:layout_marginRight="20dp"
+          android:src="@drawable/ic_visibility_off" />
+
+    </FrameLayout>
+
+  </LinearLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_text"
+    android:layout_width="280dp"
+    android:layout_height="59dp"
+    android:layout_marginTop="165dp"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/text_welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="-1dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Welcome back"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+    
+    <TextView
+      android:id="@+id/text_best_services"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginTop="36dp"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="You can Get a best services for our vets"
+      android:textColor="#FF677294"
+      android:textSize="40px" />
+  </FrameLayout>
+</FrameLayout>

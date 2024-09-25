@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_onboarding_screen"
+  android:layout_width="match_parent"
+  android:layout_height="812dp"
+  android:background="@drawable/container_onboarding_screen">
+
+  <LinearLayout
+      android:id="@+id/container_group"
+      android:layout_width="295dp"
+      android:layout_height="91dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="40dp"
+      android:layout_marginTop="678dp"
+      android:background="@drawable/container_group"
+      android:gravity="left|top"
+      android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container_button"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_height="54dp"
+        android:background="@drawable/container_button">
+
+      <ImageView
+          android:id="@+id/image_rectangle"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle"
+          android:scaleType="centerCrop" />
+
+      <TextView
+          android:id="@+id/text_get_started"
+          android:layout_width="120dp"
+          android:layout_height="23dp"
+          android:layout_marginLeft="87dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginRight="97dp"
+          android:layout_marginBottom="15dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Get Started"
+          android:textColor="#FFFFFFFF"
+          android:textSize="18dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_skip"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="133dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Skip"
+        android:textColor="#FF677294"
+        android:textSize="18dp" />
+  </LinearLayout>
+
+  <FrameLayout
+    android:id="@+id/container_text"
+    android:layout_width="304dp"
+    android:layout_height="115dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="511dp"
+    android:layout_gravity="top|left">
+    
+    <TextView
+      android:id="@+id/text_choose_best_doctors"
+      android:layout_width="wrap_content"
+      android:layout_height="35dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Choose Best Doctors"
+      android:textColor="#FF333333"
+      android:textSize="28dp" />
+    
+    <TextView
+      android:id="@+id/text_lorem_ipsum"
+      android:layout_width="304dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="45dp"
+      android:gravity="center_horizontal|top"
+      android:includeFontPadding="false"
+      android:lineHeight="23.18dp"
+      android:text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of it over 2000 years old."
+      android:textColor="#FF677294"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_image"
+    android:layout_width="480dp"
+    android:layout_height="426dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="-20dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/image_ellipse1"
+      android:layout_width="match_parent"
+      android:layout_height="342dp"
+      android:layout_marginLeft="138dp"
+      android:layout_gravity="top"
+      android:background="@drawable/image_ellipse1_doctor_3"
+      android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/image_ellipse2"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginTop="126dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dog" />
+  </FrameLayout>
+</FrameLayout>

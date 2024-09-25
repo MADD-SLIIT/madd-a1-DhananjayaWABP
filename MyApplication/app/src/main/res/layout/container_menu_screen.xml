@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_menu_screen"
+  android:layout_width="match_parent"
+  android:layout_height="812dp"
+  android:background="@drawable/container_menu_screen"
+  android:gravity="left|top"
+  android:orientation="vertical">
+  
+  <FrameLayout
+    android:id="@+id/container_profile"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="46dp">
+    
+    <ImageView
+      android:id="@+id/container_image_profile"
+      android:layout_width="44dp"
+      android:layout_height="44dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_image_profile" />
+    
+    <TextView
+      android:id="@+id/container_text_profile"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_marginLeft="56dp"
+      android:layout_marginTop="12dp"
+      android:layout_marginBottom="11dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Abdullah Mamun"
+      android:textColor="#FFFFFFFF"
+      android:textSize="16dp" />
+    
+    <ImageView
+      android:id="@+id/img_close"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="7dp"
+      android:layout_marginBottom="7dp"
+      android:layout_gravity="right"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_close" />
+  </FrameLayout>
+  
+  <LinearLayout
+    android:id="@+id/container_text"
+    android:layout_width="212dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="72dp"
+    android:layout_marginBottom="49dp"
+    android:layout_gravity="left"
+    android:layout_weight="1"
+    android:gravity="left|top"
+    android:orientation="vertical">
+    
+    <FrameLayout
+      android:id="@+id/container_my_doctors"
+      android:layout_width="match_parent"
+      android:layout_height="61dp">
+      
+      <ImageView
+        android:id="@+id/img_rectangle_my_doctors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_rectangle_my_doctors"
+        android:scaleType="centerCrop" />
+      
+      <FrameLayout
+        android:id="@+id/container_group_my_doctors"
+        android:layout_width="171dp"
+        android:layout_height="22.91dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/img_group_my_doctors2"
+          android:layout_width="18dp"
+          android:layout_height="22.91dp"
+          android:layout_marginRight="153dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/img_group_my_doctors2" />
+        
+        <TextView
+          android:id="@+id/txt_my_doctors"
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="41dp"
+          android:layout_marginTop="0dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="My Doctors"
+          android:textColor="#FFFFFFFF"
+          android:textSize="16dp" />
+        
+        <ImageView
+          android:id="@+id/img_group_my_doctors1"
+          android:layout_width="7dp"
+          android:layout_height="12.98dp"
+          android:layout_marginLeft="164dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="5.02dp"
+          android:layout_marginBottom="4.91dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/img_group_my_doctors1" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group_medical_records"
+      android:layout_width="187dp"
+      android:layout_height="19dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="21dp"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/img_group_medical_records2"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginRight="168dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_group_medical_records2" />
+      
+      <TextView
+        android:id="@+id/txt_medical_records"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Medical Records"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16dp" />
+      
+      <ImageView
+        android:id="@+id/img_group_medical_records1"
+        android:layout_width="7dp"
+        android:layout_height="12.98dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="4.02dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_group_medical_records1" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_logout"
+      android:layout_width="111dp"
+      android:layout_height="21dp"
+      android:layout_marginLeft="9dp"
+      android:layout_marginTop="479dp"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/img_group_logout"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_group_logout" />
+      
+      <TextView
+        android:id="@+id/txt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="-2.5dp"
+        android:layout_marginBottom="-2.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Logout"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp" />
+    </FrameLayout>
+  </LinearLayout>
+</LinearLayout>

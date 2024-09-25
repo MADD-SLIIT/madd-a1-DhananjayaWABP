@@ -1,0 +1,266 @@
+<!-- item_doctor.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_all_doctors"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="-76dp"
+    android:gravity="left|top"
+    android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/container_doctor3"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/drawable_shape_4"
+                android:scaleType="centerCrop" />
+
+            <FrameLayout
+                android:id="@+id/container_button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="206dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="119dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/container_button3">
+
+                <ImageView
+                    android:id="@+id/image_rectangle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/image_rectangle10"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/button_book_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="27dp"
+                    android:layout_marginBottom="9dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="30px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container_text9"
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="122dp"
+                android:layout_marginBottom="14dp"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:id="@+id/text_next_available_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginBottom="-1dp"
+                    android:layout_gravity="top|left"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Next Available "
+                    android:textColor="#FF0EBE7F"
+                    android:textSize="28px" />
+
+                <TextView
+                    android:id="@+id/text_next_available"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginBottom="-1dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="10:00 AM tomorrow"
+                    android:textColor="#FF677294"
+                    android:textSize="28px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container_image3"
+                android:layout_width="92dp"
+                android:layout_height="87dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/container_image3">
+
+                <ImageView
+                    android:id="@+id/image_rectangle11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image_rectangle11" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container_text10"
+                android:layout_width="192dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="22dp"
+                android:layout_gravity="top|right">
+
+                <FrameLayout
+                    android:id="@+id/container_group9"
+                    android:layout_width="149dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="67dp"
+                    android:layout_gravity="left">
+
+                    <FrameLayout
+                        android:id="@+id/container_group10"
+                        android:layout_width="34dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/image_ellipse6"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_gravity="top|left"
+                            android:background="@drawable/image_ellipse6"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:id="@+id/text_ratings"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginBottom="-1dp"
+                            android:gravity="left|center_vertical"
+                            android:includeFontPadding="false"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="87%"
+                            android:textColor="#FF677294"
+                            android:textSize="25px" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/container_group11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="51dp">
+
+                        <ImageView
+                            android:id="@+id/image_ellipse7"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_gravity="top|left"
+                            android:background="@drawable/image_ellipse7_doctor_7"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:id="@+id/text_patient_stories"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginBottom="-1dp"
+                            android:gravity="left|center_vertical"
+                            android:includeFontPadding="false"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="69 Patient Stories"
+                            android:textColor="#FF677294"
+                            android:textSize="25px" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_text11"
+                    android:layout_width="130dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="top|left">
+
+                    <TextView
+                        android:id="@+id/text_dr_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_gravity="top"
+                        android:gravity="left|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Dr. Shruti Kedia"
+                        android:textColor="#FF333333"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/text_specialization"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_gravity="left"
+                        android:gravity="left|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="veterinary surgeon"
+                        android:textColor="#FFF27400"
+                        android:textSize="30px" />
+
+                    <TextView
+                        android:id="@+id/text_years_experience"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="42dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_gravity="left"
+                        android:gravity="left|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="7 Years experience "
+                        android:textColor="#FF677294"
+                        android:textSize="30px" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/image_like3"
+                    android:layout_width="19dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="173dp"
+                    android:layout_marginBottom="63dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/image_like3" />
+            </FrameLayout>
+        </FrameLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

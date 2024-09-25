@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <!-- Scrollable content -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/container_group9"
+        android:scrollbars="none"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/find_your_doctor" />
+        </FrameLayout>
+    </ScrollView>
+
+    <!-- Fixed bottom navigation bar -->
+    <FrameLayout
+        android:id="@+id/container_group9"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/image_group3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14.11dp"
+            android:layout_gravity="left|center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_7" />
+
+        <ImageView
+            android:id="@+id/image_group1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="left|center_horizontal"
+            android:layout_marginLeft="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_8" />
+
+        <ImageView
+            android:id="@+id/image_group2"
+            android:layout_width="26dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="79.82dp"
+            android:layout_marginBottom="14dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+
+            android:layout_marginLeft="244dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_menu" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>

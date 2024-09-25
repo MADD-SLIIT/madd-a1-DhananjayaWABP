@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_all_records_screen"
+  android:layout_width="match_parent"
+  android:layout_height="812dp"
+  android:background="@drawable/container_all_records_screen"
+  android:gravity="left|top"
+  android:orientation="vertical">
+  
+  <FrameLayout
+    android:id="@+id/container_headline"
+    android:layout_width="144dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="36dp"
+    android:layout_gravity="left">
+    
+    <ImageView
+      android:id="@+id/image_group3"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_group3" />
+    
+    <TextView
+      android:id="@+id/text_all_records"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="3dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="All Records"
+      android:textColor="#FF333333"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <LinearLayout
+    android:id="@+id/container_all_records"
+    android:layout_width="335dp"
+    android:layout_height="350dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="34dp"
+    android:layout_gravity="left"
+    android:gravity="left|top"
+    android:orientation="vertical">
+    
+    <FrameLayout
+      android:id="@+id/container_records2"
+      android:layout_width="match_parent"
+      android:background="@drawable/drawable_shape_4"
+      android:layout_height="110dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+
+
+
+      <ImageView
+          android:id="@+id/image_recode_rectangle"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_day_rectangle"
+          android:scaleType="centerCrop" />
+      
+      <FrameLayout
+        android:id="@+id/container_group6"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group6">
+        
+        <ImageView
+          android:id="@+id/image_rectangle7"
+          android:layout_width="55dp"
+          android:layout_height="22dp"
+          android:background="@drawable/image_rectangle7"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_new2"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="2.5dp"
+          android:layout_marginBottom="-2.5dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="NEW"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group7"
+        android:layout_width="162dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="23dp"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:id="@+id/text_records_added_by_you2"
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          android:layout_marginTop="-0.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Records added by you"
+          android:textColor="#FF000000"
+          android:textSize="35px" />
+        
+        <TextView
+          android:id="@+id/text_record_rabies_vaccination"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Record for Rabies Vaccination"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+        
+        <TextView
+          android:id="@+id/text_prescription2"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:layout_marginLeft="1dp"
+          android:layout_marginTop="46dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="1 Prescription"
+          android:textColor="#FF677294"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group8"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_group8">
+        
+        <ImageView
+          android:id="@+id/image_rectangle8"
+          android:layout_width="55dp"
+          android:layout_height="60dp"
+          android:background="@drawable/image_rectangle"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_feb1"
+          android:layout_width="wrap_content"
+          android:layout_height="34dp"
+          android:layout_marginLeft="14dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginBottom="13dp"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="16.59dp"
+          android:text="27\nFEB"
+          android:textColor="#FFFFFFFF"
+          android:textSize="35px" />
+      </FrameLayout>
+
+      <ImageView
+          android:id="@+id/image_group_1"
+          android:layout_width="3dp"
+          android:layout_height="20dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_group1" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_records1"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginTop="10dp"
+      android:layout_weight="1">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+
+      <ImageView
+          android:id="@+id/image_recode_rectangle_2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_day_rectangle"
+          android:scaleType="centerCrop" />
+      
+      <FrameLayout
+        android:id="@+id/container_group3"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group3">
+        
+        <ImageView
+          android:id="@+id/image_rectangle4"
+          android:layout_width="55dp"
+          android:layout_height="22dp"
+          android:background="@drawable/image_rectangle4"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_new1"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="2.5dp"
+          android:layout_marginBottom="-2.5dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="NEW"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group4"
+        android:layout_width="148dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="23dp"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:id="@+id/text_records_added_by_you1"
+          android:layout_width="match_parent"
+          android:layout_height="18dp"
+          android:layout_marginTop="-0.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Records added by you"
+          android:textColor="#FF000000"
+          android:textSize="35px" />
+        
+        <TextView
+          android:id="@+id/text_record_rabies_ii"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Record for Rabies II"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+        
+        <TextView
+          android:id="@+id/text_prescription1"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:layout_marginLeft="1dp"
+          android:layout_marginTop="46dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="1 Prescription"
+          android:textColor="#FF677294"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group5"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_group5">
+        
+        <ImageView
+          android:id="@+id/image_rectangle5"
+          android:layout_width="55dp"
+          android:layout_height="60dp"
+          android:background="@drawable/image_rectangle"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_feb"
+          android:layout_width="wrap_content"
+          android:layout_height="34dp"
+          android:layout_marginLeft="14dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginBottom="13dp"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="17.44dp"
+          android:text="28\nFEB"
+          android:textColor="#FFFFFFFF"
+          android:textSize="35px" />
+      </FrameLayout>
+
+      <ImageView
+          android:id="@+id/image_group_2"
+          android:layout_width="3dp"
+          android:layout_height="20dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_group1" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_records"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginTop="10dp"
+      android:layout_weight="1">
+
+      <ImageView
+          android:id="@+id/image_recode_rectangle3"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_day_rectangle"
+          android:scaleType="centerCrop" />
+      
+      <FrameLayout
+        android:id="@+id/container_group"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group">
+        
+        <ImageView
+          android:id="@+id/image_rectangle1"
+          android:layout_width="55dp"
+          android:layout_height="22dp"
+          android:background="@drawable/image_rectangle1"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_new"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="2.5dp"
+          android:layout_marginBottom="-2.5dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="NEW"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group1"
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="23dp"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:id="@+id/text_records_added_by_you"
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          android:layout_marginTop="-0.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Records added by you"
+          android:textColor="#FF000000"
+          android:textSize="35px" />
+        
+        <TextView
+          android:id="@+id/text_record_pawo_vaccination"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Record for Pawo Vaccination"
+          android:textColor="#FFF27400"
+          android:textSize="30px" />
+        
+        <TextView
+          android:id="@+id/text_prescription"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:layout_marginLeft="1dp"
+          android:layout_marginTop="46dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="1 Prescription"
+          android:textColor="#FF677294"
+          android:textSize="30px" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group2"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle">
+        
+        <ImageView
+          android:id="@+id/image_rectangle2"
+          android:layout_width="55dp"
+          android:layout_height="60dp"
+          android:background="@drawable/image_rectangle"
+          android:scaleType="centerInside" />
+        
+        <TextView
+          android:id="@+id/text_mar"
+          android:layout_width="wrap_content"
+          android:layout_height="34dp"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginBottom="13dp"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="16.59dp"
+          android:text="01\nMAR"
+          android:textColor="#FFFFFFFF"
+          android:textSize="35px" />
+      </FrameLayout>
+
+      <ImageView
+          android:id="@+id/image_group_3"
+          android:layout_width="3dp"
+          android:layout_height="20dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_group1" />
+    </FrameLayout>
+  </LinearLayout>
+</LinearLayout>

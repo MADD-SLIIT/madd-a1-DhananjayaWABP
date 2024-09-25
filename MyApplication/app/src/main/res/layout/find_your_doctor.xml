@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="958dp">
+  
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@drawable/drawable_shape"
+    android:scaleType="centerCrop" />
+
+  <FrameLayout
+      android:layout_width="390dp"
+      android:layout_height="187dp"
+      android:layout_gravity="bottom|left"
+      android:layout_marginLeft="23dp"
+      android:layout_marginBottom="112dp">
+
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="260dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="90dp"
+          android:layout_marginRight="19dp"
+          android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Dr. Crick"
+            android:textColor="#FF333333"
+            android:textSize="35px" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="$ 28.00/ hours"
+            android:textColor="#FF0EBE7E"
+            android:textSize="35px" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="54dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="21dp"
+          android:layout_marginTop="26dp"
+          android:layout_marginRight="21dp">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/container_image6" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="85dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="8dp"
+          android:layout_marginRight="9dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="8.95dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="0.47dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_6" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="0.42dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="-2.08dp"
+            android:layout_marginBottom="-2.5dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="3.7 "
+            android:textColor="#FF677294"
+            android:textSize="30px" />
+      </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="1dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="90dp"
+          android:layout_marginRight="19dp"
+          android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Dr. Crick"
+            android:textColor="#FF333333"
+            android:textSize="35px" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="$ 35.00/ hours"
+            android:textColor="#FF0EBE7E"
+            android:textSize="35px" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="54dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="21dp"
+          android:layout_marginTop="26dp"
+          android:layout_marginRight="21dp">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_7_doctor" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="85dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="8dp"
+          android:layout_marginRight="9dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="8.95dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="0.47dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_11" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="0.42dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="-2.08dp"
+            android:layout_marginBottom="-2.5dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="3.7 "
+            android:textColor="#FF677294"
+            android:textSize="30px" />
+      </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="130dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="90dp"
+          android:layout_marginRight="19dp"
+          android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Dr. Crick"
+            android:textColor="#FF333333"
+            android:textSize="35px" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="$ 25.00/ hours"
+            android:textColor="#FF0EBE7E"
+            android:textSize="35px" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="54dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="21dp"
+          android:layout_marginTop="26dp"
+          android:layout_marginRight="21dp">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/container_image5" />
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="85dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="8dp"
+          android:layout_marginRight="9dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="8.95dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="0.47dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_6" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="0.42dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="-2.08dp"
+            android:layout_marginBottom="-2.5dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="3.7 "
+            android:textColor="#FF677294"
+            android:textSize="30px" />
+      </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="top">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Feature Doctor"
+          android:textColor="#FF333333"
+          android:textSize="18dp" />
+
+      <FrameLayout
+          android:layout_width="65dp"
+          android:layout_height="17dp"
+          android:layout_gravity="bottom|right"
+          android:layout_marginRight="0dp"
+          android:layout_marginBottom="2dp">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="17dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="-1dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="See all"
+            android:textColor="#FF677294"
+            android:textSize="40px" />
+
+        <ImageView
+            android:layout_width="3.38dp"
+            android:layout_height="6.28dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="3.72dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_13" />
+      </FrameLayout>
+    </FrameLayout>
+  </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="320dp"
+        android:layout_height="21dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_marginTop="-1dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Popular Doctor"
+          android:textColor="#FF333333"
+          android:textSize="18dp" />
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="17dp"
+          android:layout_gravity="bottom|right"
+          android:layout_marginRight="0dp"
+          android:layout_marginBottom="2dp">
+        <ImageView
+            android:layout_width="3.38dp"
+            android:layout_height="6.28dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="3.72dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_13" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="17dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="-1dp"
+            android:layout_marginBottom="-1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="See all"
+            android:textColor="#FF677294"
+            android:textSize="40px" />
+
+      </FrameLayout>
+    </FrameLayout>
+  <HorizontalScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:scrollbars="none"
+      android:layout_marginTop="340dp"
+      android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <!-- Doctor Card 1 -->
+      <FrameLayout
+          android:layout_width="190dp"
+          android:layout_height="264dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="22dp"
+          android:layout_gravity="left">
+
+        <!-- Add your doctor card content here (ImageView, TextViews, etc.) -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom|right"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dr. Fillerup Grab"
+                android:textColor="#FF333333"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Medicine Specialist"
+                android:textColor="#FF677294"
+                android:textSize="17dp" />
+          </FrameLayout>
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="12dp"
+              android:layout_marginLeft="27dp"
+              android:layout_marginRight="28dp"
+              android:layout_marginTop="6dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/drawable_image_15" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="top">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/drawable_image_22" />
+        </FrameLayout>
+      </FrameLayout>
+      <!-- Doctor Card 1 -->
+      <FrameLayout
+          android:layout_width="190dp"
+          android:layout_height="264dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="22dp"
+          android:layout_gravity="left">
+
+        <!-- Add your doctor card content here (ImageView, TextViews, etc.) -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom|right"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dr. Fillerup Grab"
+                android:textColor="#FF333333"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Medicine Specialist"
+                android:textColor="#FF677294"
+                android:textSize="17dp" />
+          </FrameLayout>
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="12dp"
+              android:layout_marginLeft="27dp"
+              android:layout_marginRight="28dp"
+              android:layout_marginTop="6dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/drawable_image_15" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="top">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/drawable_image_16" />
+        </FrameLayout>
+      </FrameLayout>
+      <!-- Doctor Card 1 -->
+      <FrameLayout
+          android:layout_width="190dp"
+          android:layout_height="264dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="22dp"
+          android:layout_gravity="left">
+
+        <!-- Add your doctor card content here (ImageView, TextViews, etc.) -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom|right"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dr. Fillerup Grab"
+                android:textColor="#FF333333"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Medicine Specialist"
+                android:textColor="#FF677294"
+                android:textSize="17dp" />
+          </FrameLayout>
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="12dp"
+              android:layout_marginLeft="27dp"
+              android:layout_marginRight="28dp"
+              android:layout_marginTop="6dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/drawable_image_15" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="top">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/drawable_image_16" />
+        </FrameLayout>
+      </FrameLayout>
+      <!-- Doctor Card 1 -->
+      <FrameLayout
+          android:layout_width="190dp"
+          android:layout_height="264dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="22dp"
+          android:layout_gravity="left">
+
+        <!-- Add your doctor card content here (ImageView, TextViews, etc.) -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom|right"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dr. Fillerup Grab"
+                android:textColor="#FF333333"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Medicine Specialist"
+                android:textColor="#FF677294"
+                android:textSize="17dp" />
+          </FrameLayout>
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="12dp"
+              android:layout_marginLeft="27dp"
+              android:layout_marginRight="28dp"
+              android:layout_marginTop="6dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/drawable_image_15" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="top">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/drawable_image_16" />
+        </FrameLayout>
+      </FrameLayout>
+      <!-- Doctor Card 1 -->
+      <FrameLayout
+          android:layout_width="190dp"
+          android:layout_height="264dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="22dp"
+          android:layout_gravity="left">
+
+        <!-- Add your doctor card content here (ImageView, TextViews, etc.) -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom|right"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dr. Fillerup Grab"
+                android:textColor="#FF333333"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Medicine Specialist"
+                android:textColor="#FF677294"
+                android:textSize="17dp" />
+          </FrameLayout>
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="12dp"
+              android:layout_marginLeft="27dp"
+              android:layout_marginRight="28dp"
+              android:layout_marginTop="6dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/drawable_image_15" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="top">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/drawable_image_16" />
+        </FrameLayout>
+      </FrameLayout>
+
+      <!-- You can add more doctor cards here in the same format -->
+      <!-- Doctor Card 2, Doctor Card 3, etc. -->
+    </LinearLayout>
+  </HorizontalScrollView>
+
+
+  <ImageView
+    android:layout_width="3.93dp"
+    android:layout_height="3.93dp"
+    android:layout_marginLeft="145.11dp"
+    android:layout_marginRight="275.96dp"
+    android:layout_marginTop="256.31dp"
+    android:layout_marginBottom="697.75dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_17" />
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="156dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/rounded_bottom" >
+
+
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/drawable_shape_6"
+      android:scaleType="centerCrop" />
+
+    <FrameLayout
+      android:layout_width="336dp"
+      android:layout_height="63dp"
+      android:layout_marginLeft="19dp"
+      android:layout_marginTop="36dp"
+      android:layout_gravity="top|left">
+
+      <FrameLayout
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="left">
+
+        <TextView
+          android:layout_width="136dp"
+          android:layout_height="25dp"
+          android:layout_marginTop="-1.5dp"
+          android:layout_marginBottom="-1.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Hi Handwerker! "
+          android:textColor="#FFFAFAFA"
+          android:textSize="20dp" />
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="31dp"
+          android:layout_marginTop="24.5dp"
+          android:layout_marginBottom="-3.5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Find Your Doctor"
+          android:textColor="#FFFFFFFF"
+          android:textSize="25dp" />
+      </FrameLayout>
+
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="276dp"
+        android:layout_gravity="top">
+
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_18" />
+      </FrameLayout>
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:layout_width="335dp"
+    android:layout_height="54dp"
+    android:layout_marginTop="127dp"
+    android:background="#FFFFFF"
+    android:layout_gravity="top|center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_4"
+        android:scaleType="centerCrop"
+        />
+    
+
+    
+    <ImageView
+      android:layout_width="11dp"
+      android:layout_height="11dp"
+      android:layout_marginLeft="304dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="22dp"
+      android:layout_marginBottom="21dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_19" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="17dp"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:hint="Search....."
+        android:textColor="#FF677294"
+        android:textSize="17sp"
+        android:background="@android:color/transparent" />
+    
+    <ImageView
+      android:layout_width="13dp"
+      android:layout_height="13dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="302dp"
+      android:layout_marginTop="21dp"
+      android:layout_marginBottom="20dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_20" />
+  </FrameLayout>
+
+  <ImageView
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="239dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside" />
+
+  <FrameLayout
+      android:id="@+id/find_doctor_button"
+      android:layout_width="295dp"
+      android:layout_height="54dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_marginTop="239dp"
+      android:background="@drawable/drawable_shape_9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_10"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="116dp"
+        android:layout_height="23dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="14.5dp"
+        android:layout_marginBottom="-2.5dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Find Doctord"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18dp" />
+  </FrameLayout>
+</FrameLayout>

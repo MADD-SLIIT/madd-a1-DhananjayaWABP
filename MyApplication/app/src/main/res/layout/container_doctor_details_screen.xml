@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_doctor_details_screen"
+  android:layout_width="match_parent"
+  android:layout_height="812dp"
+  android:background="@drawable/container_doctor_details_screen"
+  android:gravity="left|top"
+  android:orientation="vertical">
+
+  <FrameLayout
+    android:id="@+id/container_headline"
+    android:layout_width="335dp"
+    android:layout_height="30dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="9dp"
+    android:layout_gravity="right">
+    
+    <ImageView
+      android:id="@+id/image_headline_group1"
+      android:layout_width="18dp"
+      android:layout_height="18dp"
+      android:layout_marginLeft="317dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="6dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_headline_group1" />
+    
+    <ImageView
+      android:id="@+id/image_headline_group2"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_headline_group2" />
+    
+    <TextView
+      android:id="@+id/text_headline"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="3dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Doctor Details"
+      android:textColor="#FF333333"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_dr_pediatrician"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="34dp">
+
+    <ImageView
+      android:id="@+id/image_dr_pediatrician_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_4"
+        android:scaleType="centerCrop" />
+
+    
+    <FrameLayout
+      android:id="@+id/container_dr_pediatrician_button"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="98dp"
+      android:layout_marginRight="97dp"
+      android:layout_marginTop="120dp"
+      android:layout_marginBottom="18dp"
+      android:background="@drawable/container_dr_pediatrician_button">
+      
+      <ImageView
+        android:id="@+id/image_dr_pediatrician_button_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_dr_pediatrician_button_rectangle"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_dr_pediatrician_button"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="6.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Book Now"
+        android:textColor="#FFFFFFFF"
+        android:textSize="35px" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_dr_pediatrician_text"
+      android:layout_width="203dp"
+      android:layout_height="74dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="25dp"
+      android:layout_gravity="top|right">
+      
+      <FrameLayout
+        android:id="@+id/container_dr_pediatrician_text_inner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp">
+        
+        <TextView
+          android:id="@+id/text_dr_pediatrician_name"
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Dr. Pediatrician"
+          android:textColor="#FF333333"
+          android:textSize="18dp" />
+        
+        <TextView
+          android:id="@+id/text_dr_pediatrician_specialist"
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          android:layout_marginTop="25.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Specialist Vet "
+          android:textColor="#FF677294"
+          android:textSize="35px" />
+        
+        <TextView
+          android:id="@+id/text_dr_pediatrician_hourly_rate"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="126dp"
+          android:layout_marginTop="51.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="$ 28.00/hr"
+          android:textColor="#FF333333"
+          android:textSize="35px" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_dr_pediatrician_star"
+        android:layout_width="83dp"
+        android:layout_height="12.45dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="4.55dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_dr_pediatrician_star" />
+      
+      <ImageView
+        android:id="@+id/image_dr_pediatrician_like"
+        android:layout_width="19dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="57dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_dr_pediatrician_like" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_dr_pediatrician_image"
+      android:layout_width="92dp"
+      android:layout_height="87dp"
+      android:layout_marginLeft="19dp"
+      android:layout_marginTop="18dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/container_dr_pediatrician_image">
+      
+      <ImageView
+        android:id="@+id/image_dr_pediatrician_image_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_dr_pediatrician_image_rectangle" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_tab"
+    android:layout_width="305dp"
+    android:layout_height="84dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="24dp"
+    android:layout_gravity="left"
+    android:background="@drawable/container_tab">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_4"
+        android:scaleType="centerCrop" />
+
+    
+    <FrameLayout
+      android:id="@+id/container_tab_patient"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="206dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/container_tab_patient">
+      
+      <ImageView
+        android:id="@+id/image_tab_patient_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.11999999731779099"
+        android:background="@drawable/image_tab_patient_rectangle"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_tab_patient"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="34.5dp"
+        android:layout_marginBottom="11.5dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Patient"
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+      
+      <TextView
+        android:id="@+id/text_tab_patient_count"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="700"
+        android:textColor="#FF333333"
+        android:textSize="18dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_tab_ongoing"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="108dp"
+      android:layout_marginRight="107dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/container_tab_ongoing">
+      
+      <ImageView
+        android:id="@+id/image_tab_ongoing_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.11999999731779099"
+        android:background="@drawable/image_tab_ongoing_rectangle"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_tab_ongoing"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="13dp"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Ongoing"
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+      
+      <TextView
+        android:id="@+id/text_tab_ongoing_count"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="500"
+        android:textColor="#FF333333"
+        android:textSize="18dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_tab_running"
+      android:layout_width="90dp"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_gravity="left"
+      android:background="@drawable/container_tab_running">
+      
+      <ImageView
+        android:id="@+id/image_tab_running_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.11999999731779099"
+        android:background="@drawable/image_tab_running_rectangle"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_tab_running"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="32.5dp"
+        android:layout_marginBottom="13.5dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Runing"
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+      
+      <TextView
+        android:id="@+id/text_tab_running_count"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="100"
+        android:textColor="#FF333333"
+        android:textSize="18dp" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <LinearLayout
+    android:id="@+id/container_services"
+    android:layout_width="338dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="26dp"
+    android:layout_gravity="left"
+    android:layout_weight="1"
+    android:clipToPadding="false"
+    android:gravity="left|top"
+    android:orientation="vertical"
+    android:paddingTop="1dp">
+    
+    <TextView
+      android:id="@+id/text_services"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Services"
+      android:textColor="#FF333333"
+      android:textSize="18dp" />
+    
+    <FrameLayout
+      android:id="@+id/container_services_group3"
+      android:layout_width="335dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left">
+      
+      <TextView
+        android:id="@+id/text_services_group3"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="1.   Patient care should be the number one priority."
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+      
+      <ImageView
+        android:id="@+id/container_services_groupline1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/container_services_groupline1" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_services_group2"
+      android:layout_width="335dp"
+      android:layout_height="0dp"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left"
+      android:layout_weight="1">
+      
+      <TextView
+        android:id="@+id/text_services_group2"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="2.   Good engaing with customer"
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+      
+      <ImageView
+        android:id="@+id/container_services_groupline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/container_services_groupline" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_services_group1"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="17dp"
+      android:layout_weight="1">
+      
+      <TextView
+        android:id="@+id/text_services_group1"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginTop="-0.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="3.   That’s why some of appointment reminder system."
+        android:textColor="#FF677294"
+        android:textSize="35px" />
+    </FrameLayout>
+  </LinearLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_map"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="18dp">
+    
+    <FrameLayout
+      android:id="@+id/container_map_group1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/container_map_group1">
+      
+      <ImageView
+        android:id="@+id/image_map_grouprectangle1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_map_grouprectangle1"
+        android:scaleType="centerCrop" />
+      
+      <ImageView
+        android:id="@+id/image_map_grouprectangle2"
+        android:layout_width="318dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="9.94dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_map_grouprectangle2" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/image_map_group2"
+      android:layout_width="129.1dp"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="70.65dp"
+      android:layout_marginTop="51.81dp"
+      android:layout_marginBottom="51.75dp"
+      android:layout_gravity="left"
+      android:scaleType="centerCrop"
+      android:src="@drawable/image_map_group2" />
+    
+    <ImageView
+      android:id="@+id/image_map_group3"
+      android:layout_width="9.49dp"
+      android:layout_height="14.25dp"
+      android:layout_marginLeft="187.41dp"
+      android:layout_marginRight="138.1dp"
+      android:layout_marginTop="37.56dp"
+      android:layout_marginBottom="158.19dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_map_group3" />
+  </FrameLayout>
+</LinearLayout>
