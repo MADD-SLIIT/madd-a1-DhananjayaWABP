@@ -18,11 +18,12 @@
       android:layout_marginTop="9dp">
 
     <ImageView
+        android:id="@+id/Appoiment_back_navigate"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_gravity="left"
         android:scaleType="centerInside"
-        android:src="@drawable/drawable_image_3_a" />
+        android:src="@drawable/image_headline_group2" />
 
     <TextView
         android:layout_width="match_parent"
@@ -82,6 +83,7 @@
           android:layout_marginTop="2dp">
 
         <TextView
+            android:id="@+id/Appoiment_doctor_name"
             android:layout_width="wrap_content"
             android:layout_height="23dp"
             android:layout_gravity="top|left"
@@ -96,6 +98,7 @@
             android:textSize="18dp" />
 
         <TextView
+            android:id="@+id/Doctor_specialist"
             android:layout_width="wrap_content"
             android:layout_height="18dp"
             android:layout_gravity="top|left"
@@ -145,8 +148,8 @@
   </FrameLayout>
 
   <LinearLayout
-      android:layout_width="370dp"
-      android:layout_height="200dp"
+      android:layout_width="376dp"
+      android:layout_height="605dp"
       android:layout_gravity="left"
       android:layout_marginLeft="20dp"
       android:layout_marginTop="29dp"
@@ -170,11 +173,28 @@
         android:textColor="#FF333333"
         android:textSize="16dp" />
 
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="54dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/drawable_shape_3">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Pet Owner Name: "
+          android:textColor="#FF333333"
+          android:textSize="30px" />
+
 
       <ImageView
           android:layout_width="match_parent"
@@ -183,19 +203,20 @@
           android:scaleType="centerCrop" />
 
       <EditText
+          android:id="@+id/pet_owner_name"
           android:layout_width="325dp"
-          android:layout_height="48dp"
-          android:layout_gravity="left"
+          android:layout_height="38dp"
+          android:layout_gravity="start"
           android:layout_marginLeft="19dp"
-          android:layout_marginTop="3dp"
+          android:layout_marginTop="14dp"
           android:layout_marginBottom="17.5dp"
-          android:background="@android:color/transparent"
-          android:gravity="left|center_vertical"
+          android:background="?android:attr/editTextBackground"
+          android:gravity="start|center_vertical"
           android:hint="Pet Owner Name"
-          android:includeFontPadding="false"
+          android:includeFontPadding="true"
           android:maxLines="1"
           android:textColor="#FF677294"
-          android:textSize="17dp" />
+          android:textSize="17sp" />
     </FrameLayout>
 
 
@@ -210,13 +231,28 @@
           android:layout_height="match_parent"
           android:background="@drawable/drawable_shape_4"
           android:scaleType="centerCrop" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Contact Number: "
+          android:textColor="#FF333333"
+          android:textSize="30px" />
 
       <EditText
+          android:id="@+id/contact_number"
           android:layout_width="324dp"
-          android:layout_height="48dp"
+          android:layout_height="38dp"
           android:layout_gravity="left"
           android:layout_marginLeft="19dp"
-          android:layout_marginTop="3dp"
+          android:layout_marginTop="14dp"
           android:layout_marginBottom="17.5dp"
           android:background="@android:color/transparent"
           android:gravity="left|center_vertical"
@@ -240,13 +276,28 @@
           android:layout_height="match_parent"
           android:background="@drawable/drawable_shape_4"
           android:scaleType="centerCrop" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Home Address: "
+          android:textColor="#FF333333"
+          android:textSize="30px" />
 
       <EditText
+          android:id="@+id/address"
           android:layout_width="319dp"
-          android:layout_height="48dp"
+          android:layout_height="38dp"
           android:layout_gravity="left"
           android:layout_marginLeft="19dp"
-          android:layout_marginTop="3dp"
+          android:layout_marginTop="14dp"
           android:layout_marginBottom="17.5dp"
           android:background="@android:color/transparent"
           android:gravity="left|center_vertical"
@@ -255,6 +306,96 @@
           android:maxLines="1"
           android:textColor="#FF677294"
           android:textSize="17dp" />
+
+
+    </FrameLayout>
+
+    <!-- Date Input Field -->
+    <FrameLayout
+        android:layout_width="365dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/drawable_shape_3">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Appointment Date: "
+          android:textColor="#FF333333"
+          android:textSize="30px" />
+
+      <EditText
+          android:id="@+id/date_input"
+          android:layout_width="325dp"
+          android:layout_height="38dp"
+          android:layout_gravity="start"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="14dp"
+          android:layout_marginBottom="17.5dp"
+          android:background="?android:attr/editTextBackground"
+          android:clickable="true"
+          android:focusable="false"
+          android:gravity="start|center_vertical"
+          android:hint="Select Date"
+          android:textColor="#FF677294"
+          android:textSize="17sp" />
+    </FrameLayout>
+
+    <!-- Time Input Field -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/drawable_shape_3">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_4"
+          android:scaleType="centerCrop" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="21dp"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="left"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Avalable Time: "
+          android:textColor="#FF333333"
+          android:textSize="30px" />
+
+      <EditText
+          android:id="@+id/time_input"
+          android:layout_width="325dp"
+          android:layout_height="38dp"
+          android:layout_gravity="start"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="14dp"
+          android:layout_marginBottom="17.5dp"
+          android:background="?android:attr/editTextBackground"
+          android:clickable="true"
+          android:focusable="false"
+          android:gravity="start|center_vertical"
+          android:hint="Select Time"
+          android:textColor="#FF677294"
+          android:textSize="17sp" />
     </FrameLayout>
 
 
@@ -266,19 +407,21 @@
       android:layout_gravity="left"
       android:layout_marginLeft="55dp"
       android:layout_marginTop="10dp"
+      android:layout_marginBottom="70dp"
       android:background="@drawable/drawable_shape_9">
 
     <ImageView
+        android:id="@+id/button_confirm"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/drawable_shape_10"
         android:scaleType="centerCrop" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="92dp"
         android:layout_height="23dp"
         android:layout_gravity="top"
-        android:layout_marginLeft="126dp"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="126dp"
         android:layout_marginBottom="-3dp"
@@ -286,7 +429,7 @@
         android:includeFontPadding="false"
         android:maxLines="1"
         android:singleLine="true"
-        android:text="Next"
+        android:text="Confirm"
         android:textColor="#FFFFFFFF"
         android:textSize="18dp" />
   </FrameLayout>

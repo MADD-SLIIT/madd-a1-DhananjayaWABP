@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_find_doctors_screen_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/container_find_doctors_screen"
+    android:gravity="left|top"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:id="@+id/container_headline"
+        android:layout_width="153dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="left">
+
+        <ImageView
+            android:id="@+id/image_group"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_headline_group2" />
+
+        <TextView
+            android:id="@+id/text_find_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="My Doctors"
+            android:textColor="#FF222222"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/serch_bar_doctor"
+        android:layout_width="375dp"
+        android:layout_height="54dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+
+        <ImageView
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="21dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_19" />
+
+        <EditText
+            android:id="@+id/edit_text_find_doctor"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="17dp"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:hint="Search....."
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="#FF677294"
+            android:textSize="40px" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="302dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_20" />
+    </FrameLayout>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

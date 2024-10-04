@@ -20,12 +20,12 @@
     android:layout_gravity="left">
     
     <ImageView
-      android:id="@+id/image_group"
+      android:id="@+id/back_code_add"
       android:layout_width="30dp"
       android:layout_height="30dp"
       android:layout_gravity="left"
       android:scaleType="centerInside"
-      android:src="@drawable/image_group" />
+      android:src="@drawable/image_headline_group" />
     
     <TextView
       android:id="@+id/text_medical_records"
@@ -102,7 +102,7 @@
     android:background="@drawable/container_button">
     
     <ImageView
-      android:id="@+id/image_button_rectangle"
+      android:id="@+id/image_button_add_recoreds"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:background="@drawable/image_button_rectangle"

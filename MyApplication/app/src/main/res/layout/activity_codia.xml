@@ -16,13 +16,13 @@
 
         <ImageView
             android:id="@+id/image_group3"
-            android:layout_width="20dp"
-            android:layout_height="19.89dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginTop="14dp"
             android:layout_marginRight="249dp"
             android:layout_marginBottom="14.11dp"
             android:scaleType="centerInside"
-            android:src="@drawable/image_group3" />
+            android:src="@drawable/home_icon" />
 
         <ImageView
             android:id="@+id/image_group1"
@@ -56,9 +56,6 @@
     </FrameLayout>
 
 
-
-
-
     <HorizontalScrollView
         android:id="@+id/horizontal_scroll_view"
         android:layout_width="match_parent"
@@ -69,18 +66,19 @@
             android:id="@+id/linear_layout_doctors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="178dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="178dp">
+            android:orientation="horizontal">
+
             <GridLayout
                 android:id="@+id/grid_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
                 android:columnCount="2"
-                android:rowCount="2"
                 android:orientation="horizontal"
-                android:layout_marginRight="10dp">
+                android:rowCount="2">
 
                 <!-- Example Card 1 -->
                 <FrameLayout
@@ -106,7 +104,6 @@
                         android:layout_marginBottom="24dp"
                         android:gravity="left|top"
                         android:orientation="vertical">
-
 
 
                         <FrameLayout

@@ -4,27 +4,14 @@
     android:background="@color/white"
     android:layout_height="match_parent">
 
-
-
-    <!-- Scrollable content -->
-    <ScrollView
-        android:id="@+id/scroll_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/container_group9"
-        android:scrollbars="none"
-        android:orientation="vertical">
-
         <FrameLayout
             android:id="@+id/main"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="660dp">
 
-            <include layout="@layout/find_your_doctor" />
-
-
+            <include layout="@layout/container_all_records_screen" />
         </FrameLayout>
-    </ScrollView>
+
 
     <!-- Fixed bottom navigation bar -->
     <FrameLayout
@@ -43,19 +30,18 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginTop="14dp"
-            android:layout_marginBottom="14.11dp"
             android:layout_gravity="left|center_horizontal"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="0dp"
             android:scaleType="centerInside"
-            android:src="@drawable/drawable_image_7" />
+            android:src="@drawable/image_group3" />
 
         <ImageView
             android:id="@+id/image_group1"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginTop="14dp"
             android:layout_gravity="left|center_horizontal"
             android:layout_marginLeft="80dp"
+            android:layout_marginTop="14dp"
             android:scaleType="centerInside"
             android:src="@drawable/drawable_image_8" />
 

@@ -1,34 +1,34 @@
-<!-- item_doctor.xml -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/container_all_doctors"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:layout_marginTop="24dp"
-    android:layout_marginBottom="-76dp"
-    android:gravity="left|top"
-    android:orientation="vertical">
+    android:layout_margin="8dp"
+    android:elevation="4dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
         <FrameLayout
             android:id="@+id/container_doctor3"
             android:layout_width="match_parent"
             android:layout_height="170dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/drawable_shape_4"
-                android:scaleType="centerCrop" />
 
             <FrameLayout
                 android:id="@+id/container_button3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="206dp"
-                android:layout_marginRight="17dp"
                 android:layout_marginTop="119dp"
+                android:layout_marginRight="17dp"
                 android:layout_marginBottom="17dp"
                 android:background="@drawable/container_button3">
 
@@ -40,10 +40,9 @@
                     android:scaleType="centerCrop" />
 
                 <TextView
-                    android:id="@+id/button_book_now"
                     android:layout_width="wrap_content"
                     android:layout_height="16dp"
-                    android:layout_marginLeft="48dp"
+                    android:layout_marginLeft="35dp"
                     android:layout_marginTop="9dp"
                     android:layout_marginRight="27dp"
                     android:layout_marginBottom="9dp"
@@ -53,25 +52,25 @@
                     android:singleLine="true"
                     android:text="Book Now"
                     android:textColor="#FFFFFFFF"
-                    android:textSize="30px" />
+                    android:textSize="25px" />
             </FrameLayout>
 
             <FrameLayout
                 android:id="@+id/container_text9"
                 android:layout_width="103dp"
                 android:layout_height="match_parent"
+                android:layout_gravity="left"
                 android:layout_marginLeft="21dp"
                 android:layout_marginTop="122dp"
-                android:layout_marginBottom="14dp"
-                android:layout_gravity="left">
+                android:layout_marginBottom="14dp">
 
                 <TextView
                     android:id="@+id/text_next_available_caption"
                     android:layout_width="wrap_content"
                     android:layout_height="17dp"
+                    android:layout_gravity="top|left"
                     android:layout_marginTop="-1dp"
                     android:layout_marginBottom="-1dp"
-                    android:layout_gravity="top|left"
                     android:gravity="left|center_vertical"
                     android:includeFontPadding="false"
                     android:maxLines="1"
@@ -81,7 +80,7 @@
                     android:textSize="28px" />
 
                 <TextView
-                    android:id="@+id/text_next_available"
+                    android:id="@+id/nextAvailableTextView"
                     android:layout_width="match_parent"
                     android:layout_height="16dp"
                     android:layout_marginTop="19dp"
@@ -99,13 +98,13 @@
                 android:id="@+id/container_image3"
                 android:layout_width="92dp"
                 android:layout_height="87dp"
+                android:layout_gravity="top|left"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="18dp"
-                android:layout_gravity="top|left"
                 android:background="@drawable/container_image3">
 
                 <ImageView
-                    android:id="@+id/doctorImageView"
+                    android:id="@+id/image_rectangle11"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
@@ -116,16 +115,16 @@
                 android:id="@+id/container_text10"
                 android:layout_width="192dp"
                 android:layout_height="80dp"
-                android:layout_marginRight="17dp"
+                android:layout_gravity="top|right"
                 android:layout_marginTop="22dp"
-                android:layout_gravity="top|right">
+                android:layout_marginRight="17dp">
 
                 <FrameLayout
                     android:id="@+id/container_group9"
                     android:layout_width="149dp"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="67dp"
-                    android:layout_gravity="left">
+                    android:layout_gravity="left"
+                    android:layout_marginTop="67dp">
 
                     <FrameLayout
                         android:id="@+id/container_group10"
@@ -137,13 +136,13 @@
                             android:id="@+id/image_ellipse6"
                             android:layout_width="10dp"
                             android:layout_height="10dp"
-                            android:layout_marginTop="1dp"
                             android:layout_gravity="top|left"
+                            android:layout_marginTop="1dp"
                             android:background="@drawable/image_ellipse6"
                             android:scaleType="centerInside" />
 
                         <TextView
-                            android:id="@+id/text_ratings"
+                            android:id="@+id/ratingsTextView"
                             android:layout_width="match_parent"
                             android:layout_height="15dp"
                             android:layout_marginLeft="14dp"
@@ -168,13 +167,13 @@
                             android:id="@+id/image_ellipse7"
                             android:layout_width="10dp"
                             android:layout_height="10dp"
-                            android:layout_marginTop="1dp"
                             android:layout_gravity="top|left"
+                            android:layout_marginTop="1dp"
                             android:background="@drawable/image_ellipse7_doctor_7"
                             android:scaleType="centerInside" />
 
                         <TextView
-                            android:id="@+id/text_patient_stories"
+                            android:id="@+id/patientStoriesTextView"
                             android:layout_width="match_parent"
                             android:layout_height="15dp"
                             android:layout_marginLeft="14dp"
@@ -197,12 +196,12 @@
                     android:layout_gravity="top|left">
 
                     <TextView
-                        android:id="@+id/text_dr_name"
+                        android:id="@+id/nameTextView"
                         android:layout_width="match_parent"
                         android:layout_height="23dp"
+                        android:layout_gravity="top"
                         android:layout_marginTop="-1dp"
                         android:layout_marginBottom="-1dp"
-                        android:layout_gravity="top"
                         android:gravity="left|center_vertical"
                         android:includeFontPadding="false"
                         android:maxLines="1"
@@ -212,12 +211,12 @@
                         android:textSize="18dp" />
 
                     <TextView
-                        android:id="@+id/text_specialization"
+                        android:id="@+id/specializationTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="17dp"
+                        android:layout_gravity="left"
                         android:layout_marginTop="22dp"
                         android:layout_marginBottom="18dp"
-                        android:layout_gravity="left"
                         android:gravity="left|center_vertical"
                         android:includeFontPadding="false"
                         android:maxLines="1"
@@ -227,12 +226,12 @@
                         android:textSize="30px" />
 
                     <TextView
-                        android:id="@+id/text_years_experience"
+                        android:id="@+id/experienceTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="16dp"
+                        android:layout_gravity="left"
                         android:layout_marginTop="42dp"
                         android:layout_marginBottom="-1dp"
-                        android:layout_gravity="left"
                         android:gravity="left|center_vertical"
                         android:includeFontPadding="false"
                         android:maxLines="1"
@@ -253,14 +252,5 @@
             </FrameLayout>
         </FrameLayout>
 
-
-</LinearLayout>
-
-
-
-
-
-
-
-
-
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

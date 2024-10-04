@@ -20,7 +20,7 @@
     android:layout_gravity="left">
     
     <ImageView
-      android:id="@+id/image_headline_group"
+      android:id="@+id/image_headline_back"
       android:layout_width="30dp"
       android:layout_height="30dp"
       android:layout_gravity="left"
@@ -60,7 +60,7 @@
     
     <LinearLayout
       android:id="@+id/container_mobile_number"
-      android:layout_width="match_parent"
+      android:layout_width="306dp"
       android:layout_height="match_parent"
       android:layout_marginLeft="15dp"
       android:layout_marginRight="15dp"
@@ -92,8 +92,8 @@
         android:layout_weight="1"
         android:background="@drawable/image_mobile_number">
         <EditText
-            android:id="@+id/mage_discription_type"
-            android:layout_width="340dp"
+            android:id="@+id/discription_type"
+            android:layout_width="300dp"
             android:layout_height="155dp"
             android:layout_marginTop="7.93dp"
             android:layout_marginBottom="4dp"
@@ -101,7 +101,7 @@
             android:background="@drawable/image_mobile_number"
             android:gravity="left|center_vertical"
             android:hint="Enter Mobile Number"
-            android:inputType="phone"
+            android:inputType="textMultiLine"
             android:maxLines="1"
             android:padding="10dp"
             android:textColor="#FF000000"
@@ -120,139 +120,50 @@
     
     <FrameLayout
       android:id="@+id/container_age"
-      android:layout_width="match_parent"
+      android:layout_width="306dp"
       android:layout_height="75.79dp"
       android:layout_marginLeft="15dp"
       android:layout_marginRight="15dp"
-      android:layout_marginTop="107.51dp"
+      android:layout_marginTop="115dp"
       android:layout_gravity="top">
-      
+
       <FrameLayout
-        android:id="@+id/container_year"
-        android:layout_width="94dp"
-        android:layout_height="47.59dp"
-        android:layout_marginBottom="0dp"
-        android:layout_gravity="bottom|right">
-        
-        <ImageView
-          android:id="@+id/image_year_rectangle"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:background="@drawable/image_year_rectangle"
-          android:scaleType="centerCrop" />
-        
-        <TextView
-          android:id="@+id/text_year"
-          android:layout_width="wrap_content"
-          android:layout_height="21dp"
-          android:layout_marginLeft="10dp"
-          android:layout_marginTop="11.97dp"
-          android:layout_marginBottom="-2.13dp"
-          android:layout_gravity="top|left"
-          android:gravity="left|center_vertical"
-          android:includeFontPadding="false"
-          android:maxLines="1"
-          android:singleLine="true"
-          android:text="Year "
-          android:textColor="#FF677294"
-          android:textSize="16dp" />
-        
-        <ImageView
-          android:id="@+id/image_year_group"
-          android:layout_width="9.26dp"
-          android:layout_height="4.41dp"
-          android:layout_marginLeft="76.74dp"
-          android:layout_marginRight="7.99dp"
-          android:layout_marginTop="21.17dp"
-          android:layout_marginBottom="22.01dp"
-          android:scaleType="centerInside"
-          android:src="@drawable/image_year_group" />
-      </FrameLayout>
-      
-      <FrameLayout
-        android:id="@+id/container_month"
-        android:layout_width="94dp"
-        android:layout_height="47.59dp"
-        android:layout_marginLeft="105dp"
-        android:layout_marginBottom="0dp"
-        android:layout_gravity="bottom|left">
-        
-        <ImageView
-          android:id="@+id/image_month_rectangle"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:background="@drawable/image_month_rectangle"
-          android:scaleType="centerCrop" />
-        
-        <TextView
-          android:id="@+id/text_month"
-          android:layout_width="wrap_content"
-          android:layout_height="21dp"
-          android:layout_marginLeft="10dp"
-          android:layout_marginTop="11.97dp"
-          android:layout_marginBottom="-2.13dp"
-          android:layout_gravity="top|left"
-          android:gravity="left|center_vertical"
-          android:includeFontPadding="false"
-          android:maxLines="1"
-          android:singleLine="true"
-          android:text="Month"
-          android:textColor="#FF677294"
-          android:textSize="16dp" />
-        
-        <ImageView
-          android:id="@+id/image_month_group"
-          android:layout_width="9.26dp"
-          android:layout_height="4.41dp"
-          android:layout_marginLeft="76.74dp"
-          android:layout_marginRight="7.99dp"
-          android:layout_marginTop="21.17dp"
-          android:layout_marginBottom="22.01dp"
-          android:scaleType="centerInside"
-          android:src="@drawable/image_month_group" />
-      </FrameLayout>
-      
-      <FrameLayout
-        android:id="@+id/container_day"
-        android:layout_width="94dp"
-        android:layout_height="47.59dp"
-        android:layout_marginBottom="0dp"
-        android:layout_gravity="bottom|left">
+          android:id="@+id/date_peatiant"
+          android:layout_width="300dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="1dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="0dp"
+          android:layout_weight="1"
+          android:background="@drawable/image_patients_name">
 
         <ImageView
-          android:id="@+id/image_day_rectangle"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:background="@drawable/image_day_rectangle"
-          android:scaleType="centerCrop" />
+            android:id="@+id/image_name_rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_day_rectangle"
+            android:scaleType="centerCrop" />
 
-        <TextView
-          android:id="@+id/text_day"
-          android:layout_width="wrap_content"
-          android:layout_height="21dp"
-          android:layout_marginLeft="10dp"
-          android:layout_marginTop="11.97dp"
-          android:layout_marginBottom="-2.13dp"
-          android:layout_gravity="top|left"
-          android:gravity="left|center_vertical"
-          android:includeFontPadding="false"
-          android:maxLines="1"
-          android:singleLine="true"
-          android:text="Day "
-          android:textColor="#FF677294"
-          android:textSize="16dp" />
-        
-        <ImageView
-          android:id="@+id/image_day_group"
-          android:layout_width="9.26dp"
-          android:layout_height="4.41dp"
-          android:layout_marginLeft="76.74dp"
-          android:layout_marginRight="7.99dp"
-          android:layout_marginTop="21.17dp"
-          android:layout_marginBottom="22.01dp"
-          android:scaleType="centerInside"
-          android:src="@drawable/image_day_group" />
+        <EditText
+            android:id="@+id/edit_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/image_mobile_number"
+            android:gravity="left|center_vertical"
+            android:hint="Select Date"
+            android:focusable="false"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#FF000000"
+            android:textSize="17dp" />
+
+
       </FrameLayout>
+      
+
 
       <TextView
           android:id="@+id/text_date"
@@ -319,7 +230,7 @@
             android:background="@drawable/image_mobile_number"
             android:gravity="left|center_vertical"
             android:hint="Enter Mobile Number"
-            android:inputType="phone"
+            android:inputType="text"
             android:maxLines="1"
             android:padding="10dp"
             android:textColor="#FF000000"
@@ -354,7 +265,7 @@
           android:textSize="40px" />
       
       <FrameLayout
-        android:id="@+id/image_medicin_type"
+        android:id="@+id/image_medicin_type_2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="1dp"
@@ -373,14 +284,14 @@
             android:background="@drawable/image_mobile_number"
             android:gravity="left|center_vertical"
             android:hint="Enter Mobile Number"
-            android:inputType="phone"
+            android:inputType="text"
             android:maxLines="1"
             android:padding="10dp"
             android:textColor="#FF000000"
             android:textSize="16sp" />
 
         <ImageView
-            android:id="@+id/image_medicin_rectangle"
+            android:id="@+id/image_medicin_type"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/image_day_rectangle"
@@ -407,12 +318,12 @@
     android:layout_width="270dp"
     android:layout_height="54dp"
     android:layout_marginLeft="53dp"
-    android:layout_marginTop="84dp"
+    android:layout_marginTop="4dp"
     android:layout_gravity="left"
     android:background="@drawable/container_button">
     
     <ImageView
-      android:id="@+id/image_button_rectangle"
+      android:id="@+id/image_button_recode_save"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:background="@drawable/image_button_rectangle"

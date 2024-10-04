@@ -4,8 +4,6 @@
     android:background="@color/white"
     android:layout_height="match_parent">
 
-
-
     <!-- Scrollable content -->
     <ScrollView
         android:id="@+id/scroll_view"
@@ -20,9 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include layout="@layout/find_your_doctor" />
-
-
+            <include layout="@layout/container_favourite_doctors_screen" />
         </FrameLayout>
     </ScrollView>
 

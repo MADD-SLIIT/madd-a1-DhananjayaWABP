@@ -1,9 +1,8 @@
-package com.example.madd_buddi
+package com.example.finalmadd
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.madd_buddi.databinding.DoctorCardBinding
+import com.example.finalmadd.databinding.DoctorCardBinding
 import com.google.firebase.database.*
 
 class Test : AppCompatActivity() {

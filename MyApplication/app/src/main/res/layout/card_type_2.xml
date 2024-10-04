@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_margin="10dp"
+    android:layout_height="180dp">
+
+    <FrameLayout
+        android:id="@+id/container_doctor1"
+        android:layout_width="160dp"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/image_dr_card1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_4"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/container_group1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/container_image1"
+                android:layout_width="match_parent"
+                android:layout_height="84dp">
+
+                <ImageView
+                    android:id="@+id/image_ellipse1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image_ellipse4_doctor_6" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container_text1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/text_dr_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginBottom="-1dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Dr. Shouey"
+                    android:textColor="#FF333333"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/text_specialist_vet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-1dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Specialist Vet"
+                    android:textColor="#FFF27400"
+                    android:textSize="28px" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_like"
+            android:layout_width="16.76dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="133.12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10.12dp"
+            android:layout_marginBottom="155dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_like1" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

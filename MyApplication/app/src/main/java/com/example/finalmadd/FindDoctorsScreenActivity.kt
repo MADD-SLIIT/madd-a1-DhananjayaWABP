@@ -1,0 +1,109 @@
+package com.example.finalmadd
+
+import android.content.Intent
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import android.widget.EditText
+import android.widget.ImageView
+
+
+class FindDoctorsScreenActivity : AppCompatActivity() {
+
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var doctorAdapter: DoctorAdapter
+    private val doctorList = ArrayList<Doctor>()
+    private val filteredDoctorList = ArrayList<Doctor>() // For search filtering
+    private lateinit var searchBar: EditText
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.layout_my_doctor)
+
+
+
+
+        val headlineImageView: ImageView = findViewById(R.id.image_group)
+
+
+
+        // Set OnClickListener to return to the previous page
+        headlineImageView.setOnClickListener {
+            val intent = Intent(this, MyProfile::class.java)
+            startActivity(intent)
+        }
+
+
+        // Initialize views
+        recyclerView = findViewById(R.id.recycler)
+        searchBar = findViewById(R.id.edit_text_find_doctor)
+
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        doctorAdapter = DoctorAdapter(filteredDoctorList)
+        recyclerView.adapter = doctorAdapter
+
+        // Firebase database reference
+        val database = FirebaseDatabase.getInstance().getReference("doctors")
+
+        // Fetch data from Firebase
+        database.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                doctorList.clear()
+                for (doctorSnapshot in snapshot.children) {
+                    val doctor = doctorSnapshot.getValue(Doctor::class.java)
+                    doctor?.let { doctorList.add(it) }
+                }
+                // Initially, show all doctors
+                filteredDoctorList.addAll(doctorList)
+                doctorAdapter.notifyDataSetChanged()
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                // Handle errors
+            }
+        })
+
+        // Set up search bar listener
+        searchBar.addTextChangedListener(object : TextWatcher {
+            override fun afterTextChanged(s: Editable?) {
+                filterDoctors(s.toString())
+            }
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+        })
+    }
+
+    // Filter function to search through the doctor list based on the input
+    private fun filterDoctors(query: String) {
+        val searchText = query.lowercase() // Make the search case-insensitive
+        filteredDoctorList.clear()
+
+        if (searchText.isEmpty()) {
+            // If search is empty, show the full list
+            filteredDoctorList.addAll(doctorList)
+        } else {
+            // Filter by name or specialization
+            for (doctor in doctorList) {
+                val doctorName = doctor.name?.lowercase() ?: ""
+                val doctorSpecialization = doctor.specialization?.lowercase() ?: ""
+
+                if (doctorName.contains(searchText) || doctorSpecialization.contains(searchText)) {
+                    filteredDoctorList.add(doctor)
+                }
+            }
+        }
+
+        // Notify the adapter of the changes
+        doctorAdapter.notifyDataSetChanged()
+    }
+
+}

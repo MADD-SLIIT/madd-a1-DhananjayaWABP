@@ -348,7 +348,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="left"
         android:scaleType="centerCrop"
-        android:src="@drawable/container_profile_group3" />
+        android:src="@drawable/container_image_profile" />
       
       <ImageView
         android:id="@+id/image_profile_group"

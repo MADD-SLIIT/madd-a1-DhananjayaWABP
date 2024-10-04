@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.Design"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
@@ -21,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- DoctorList Activity -->
+        <activity android:name=".DoctorList"  android:exported="true" />
+        <activity android:name=".DoctorDetailsActivity" android:exported="true"/>
+        <activity android:name=".DoctorMyDoctor" android:exported="true"/>
+        <activity android:name=".MyFavoriteDoctor" android:exported="true"/>
+        <activity android:name=".AppointmentActivity" android:exported="true"/>
+        <activity android:name=".MyProfile" android:exported="true"/>
+        <activity android:name=".ProfileViewActivity" android:exported="true"/>
+        <activity android:name=".FindDoctorActivity" android:exported="true"/>
+        <activity android:name=".FindDoctorsScreenActivity" android:exported="true"/>
+        <activity android:name=".MedicalRecords" android:exported="true"/>
+        <activity android:name=".MedicalRecordAdd" android:exported="true"/>
+        <activity android:name=".MedicalRecordsList" android:exported="true"/>
     </application>
 
 </manifest>
